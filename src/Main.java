@@ -7,6 +7,14 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("Simple forward-chaining algorithm for propositional logic  By: Muhammad Elgendi");
+        
+        // P => Q
+        // L^M => P
+        // B^L => M
+        // A^P => L
+        // A^B => L
+        // A
+        // B
 
         ArrayList<List<String>> clauses = new ArrayList<>();
         clauses.add(Arrays.asList("P", "Q"));
